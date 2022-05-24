@@ -1,0 +1,1079 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  
+  <title>Mt. Superior Health - House Style</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="mtshealth.ico">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet" type="text/css">
+  <!-- <link href="dist/validitron.css" rel="stylesheet" type="text/css"> -->
+
+  <!-- scripts -->
+  <script src="bootstrap/dist/umd/popper.min.js"></script>
+  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/custom-js.js"></script>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="overflow-y:scroll;">
+  <header>
+    <div id="header-div" class="container">
+      <div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom align-items-center">
+        <div class="hamburger-menu-container">
+          <a onclick="showMenu()" href="/" id="show-menu" class="hamburder-menu">
+            <img src="images/hamburger-menu.svg" alt="validitron" class="">
+          </a>
+          <a onclick="hideMenu()" href="/" id="hide-menu" class="back-menu">
+            <img src="images/hamburger-menu - Copy.svg" alt="validitron" class="">
+          </a>
+        </div>
+        <div class="logo-sec d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <a href="#" class="logo">
+            <img src="images/mtshealth-logo-mono.png" alt="mtshealth" class="img-fluid">
+            <span>Product Title</span>
+          </a>
+          
+        </div>
+
+        <div id="navigation-div" class="nav-sec">
+          <div class="login-nav d-flex flex-wrap justify-content-end mb-2">
+            <a href="#" class="secondary text-decoration-none px-3">Login</a>
+            <a href="#" class="secondary text-decoration-none px-3">Register</a>
+          </div>
+          <ul class="nav">
+            <li class="nav-item"><a href="#" class="nav-link">NAV ITEM 1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">NAV ITEM 2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">NAV ITEM 3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">NAV ITEM 4</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <!-- <div class="container clearfix mb-5">
+      <button onclick="copyText('#header-div')" class="btn btn-secondary copyToClipboard">Copy header</button>
+    </div> -->
+  </header>
+
+  <!---main section-->
+  <main>
+    <div class="container">
+      <section class="typography-styles my-5">
+        <div class="row">
+          <div class="col-6">
+            <h2>Typography Styles</h2>
+          </div>
+          <!-- <div class="col-6">
+            <button onclick="copyText('#typographyStylesTable')" class="btn btn-secondary copyToClipboard">Copy</button>
+          </div> -->
+        </div>
+        <div id="typographyStylesTable">
+          <div class="table-responsive">
+            <table class="table mt-5 table-borderless">
+              <thead>
+                <tr>
+                  <th width="200px">Title</th>
+                  <th width="200px">Headings</th>
+                  <th>Paragraph</th>
+                  <th>Hyperlinks</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <h1 class="h1">Main title</h1>
+                  </td>
+                  <td>
+                    <span class="h2">Heading 2</span>
+                  </td>
+                  <td>
+                    <p>Normal text. Nem qui omnis nam ne eiciistem fugit volupt- umet eostrum ercient iusaeruptas qui
+                      ute
+                      non porerro tem
+                      fugit rem aliquam nes.
+                    </p>
+                  </td>
+                  <td><a href="#" class="link-default">Default</a></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h1 class="h1"></h1>
+                  </td>
+                  <td>
+                    <span class="h3 hover-color">Heading 3</span>
+                  </td>
+                  <td>
+                    <p class="card-text hover-color">Dialog/card text. Nem qui omnis nam ne eiciistem fugit vo-
+                      luptumet eostrum ercient iusaeruptas qui ute non porerro
+                      tem fugit rem aliquam nes.</p>
+                  </td>
+                  <td><a href="#" class="link-hover hover-color">Hover</a></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h1 class="h1"></h1>
+                  </td>
+                  <td>
+                    <span class="h4 focused-color">Heading 4</span>
+                  </td>
+                  <td>
+                    <p class="focused-color">Emphasis text. Nem qui omnis nam ne eiciistem fugit
+                      voluptumet eostrum ercient iusaeruptas qui ute non
+                      porerro tem fugit rem aliquam nes.
+                    </p>
+                  </td>
+                  <td><a href="#" class="link-focused focused-color">Focused</a></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h1 class="h1"></h1>
+                  </td>
+                  <td>
+                    <strong><span class="table-heading">TABLE HEADING</span> </strong>
+                  </td>
+                  <td>
+                    <p class="text-muted">Muted text. Nem qui omnis nam ne eiciistem fugit volupt-
+                      umet eostrum ercient iusaeruptas qui ute non porerro tem
+                      fugit rem aliquam nes.
+                    </p>
+                  </td>
+                  <td><a href="#" class="link-selected">Selected/mousedown</a></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h1 class="h1"></h1>
+                  </td>
+                  <td>
+                    <span class="h2"></span>
+                  </td>
+                  <td>
+                    <p class="caption">Caption text. Nem qui omnis nam ne eiciistem fugit volupt-
+                      umet eostrum ercient iusaeruptas qui ute non porerro tem
+                      fugit rem aliquam nes.
+                    </p>
+                  </td>
+                  <td><a href="#" class="link-visited">Visited</a></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h1 class="h1"></h1>
+                  </td>
+                  <td>
+                    <span class="h2"></span>
+                  </td>
+                  <td>
+                    <p>
+                    </p>
+                  </td>
+                  <td><a href="#" class="link-disabled disable">Disabled</a></td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      <!-- breadcrumbs -->
+      <section class="breadcrumbs">
+        <div class="row">
+          <div class="col-6">
+            <h2>UI Component - Bread Crumbs</h2>
+          </div>
+        </div>
+        <div id="tabbar" class="mb-5">
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Tab item 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tab item 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tab item 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tab item 4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Tab item 5</a>
+            </li>
+          </ul>
+        </div>
+        <style>
+          ul.breadcrumb {
+            padding: 10px 16px;
+            list-style: none;
+            background-color: #eee;
+          }
+          
+          /* Display list items side by side */
+          ul.breadcrumb li {
+            display: inline;
+            font-size: 18px;
+          }
+          
+          /* Add a slash symbol (/) before/behind each list item */
+          ul.breadcrumb li+li:before {
+            padding: 8px;
+            color: black;
+            content: "/\00a0";
+          }
+          
+          /* Add a color to all links inside the list */
+          ul.breadcrumb li a {
+            color: #0275d8;
+            text-decoration: none;
+          }
+          
+          /* Add a color on mouse-over */
+          ul.breadcrumb li a:hover {
+            color: #01447e;
+            text-decoration: underline;
+          }
+        </style>
+      </section>
+
+      <!-- Navigation Bar-->
+      <section class="nav-bar">
+        <div class="row">
+          <div class="col-6">
+            <h2>UI Component - Navigation Bar</h2>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                  <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="javascript:void(0)">Hello</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="javascript:void(0)">Hello</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="javascript:void(0)">Hello</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+            <p></p>
+            <p></p>
+          </div>
+      <!-- Dialog -->
+      <section class="dialog-box">
+        <div class="row">
+          <div class="col-6">
+            <h2>UI Component - Dialog</h2>
+          </div>
+          <div class="col-6">
+            <button onclick="copyText('#dialogbox')" class="btn btn-secondary copyToClipboard">Copy</button>
+          </div>
+        </div>
+        <div id="dialogbox" class="mb-5">
+
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h5>Default</h5>
+
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Open Default Modal
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Dialog Heading</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Dialog/card text. Nem qui omnis nam ne eiciistem fugit voluptumet eostrum ercient
+                      iusaeruptas qui ute non porerro tem fugit rem aliquam nes
+                      <div class="body-input">
+                        <div class="form-group">
+                          <label for="" class="form-label">Title text goes here</label>
+                          <input class="form-control" type="text" placeholder="Lorem ipsum" aria-label="Lorem ipsum">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="modal-btn btn btn-primary">Let's Go</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-12 col-md-6">
+              <h5>Login</h5>
+
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLogin">
+                Open Login Modal
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade " id="exampleModalLogin" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content modal-dark">
+                    <div class="modal-header">
+                      <h3 class="modal-title" id="exampleModalLabel">Login</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="body-input">
+                        <div class="form-group">
+                          <label for="" class="form-label">Username</label>
+                          <input class="form-control" type="text" placeholder="Lorem ipsum" aria-label="Lorem ipsum">
+                        </div>
+                        <div class="form-group">
+                          <label for="" class="form-label">Password</label>
+                          <input class="form-control" type="text" placeholder="Lorem ipsum" aria-label="Lorem ipsum">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="modal-btn btn btn-primary">Let's Go</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Cards -->
+      <section>
+        <div class="row">
+          <div class="col-6">
+            <h2>UI Component - Cards</h2>
+          </div>
+          <!-- <div class="col-6">
+            <button onclick="copyText('#cards')" class="btn btn-secondary copyToClipboard">Copy</button>
+          </div>
+        </div> -->
+        <div id="cards" class="mb-5">
+
+          <div class="row">
+            <!-- <div class="col-12 col-md-3">
+              <h5>Default</h5>
+              <div class="card text-blue bg-default mb-3">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="card-body">
+                  <h3 class="card-title">Card Heading</h3>
+                  <p class="card-text">Dialog/card text. Nem qui omnis nam ne eiciistem
+                    fugit voluptumet eostrum ercient iusaeruptas qui
+                    ute non porerro tem fugit rem aliquam nes. Bor-
+                    itaquis mo ipiciaeped essimi, siti quosa sinctem
+                    voluptat.</p>
+                  <h6>Find out More</h6>
+                </div> -->
+              
+                <div class="container mt-3"></div>
+                  <p>Image at the top (card-img-top):</p>
+                  <div class="card" style="width:400px">
+                    <img class="card-img-top" src="images/Avatar 1.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">John Doe</h4>
+                      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                      <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                  </div>
+                  <br>
+                  
+                  <p>Image at the bottom (card-img-bottom):</p>
+                  <div class="card" style="width:400px">
+                    <div class="card-body">
+                      <h4 class="card-title">Jane Doe</h4>
+                      <p class="card-text">Some example text some example text. Jane Doe is an architect and engineer</p>
+                      <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                    <img class="card-img-bottom" src="images/Avatar 2.jpg" alt="Card image" style="width:100%">
+                  </div>
+                </div>
+                
+              </div>
+      </section>
+      <!-- Alerts -->
+      <section>
+      <div class="container mt-3">
+        <h2>UI Component - Alerts</h2>
+        <p>The alert() method displays an alert box with a message and an OK button. The alert() method is used when you want information to come through to the user.</p>
+        <div class="alert alert-success">
+          <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-info">
+          <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+        </div>
+        <div class="alert alert-warning">
+          <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+        </div>
+        <div class="alert alert-danger">
+          <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+        <div class="alert alert-primary">
+          <strong>Primary!</strong> Indicates an important action.
+        </div>
+        <div class="alert alert-secondary">
+          <strong>Secondary!</strong> Indicates a slightly less important action.
+        </div>
+        <div class="alert alert-dark">
+          <strong>Dark!</strong> Dark grey alert.
+        </div>
+        <div class="alert alert-light">
+          <strong>Light!</strong> Light grey alert.
+        </div>
+      </div>
+    </section>
+
+    <!--Toasts-->
+    <section>
+      <div class="row">
+        <div class="col-6">
+          <h2>UI Component - Toasts</h2>
+        </div>
+        <!-- <div class="col-6">
+          <button onclick="copyText('#buttonPrimary')" class="btn btn-secondary copyToClipboard">Copy</button>
+        </div> -->
+      </div>
+      <div class="container mt-3">
+        <h5>Sample Toast</h5>
+        <p>A toast is like an alert box that is only shown for a couple of seconds when something happens (i.e. when a user clicks on a button, submits a form, etc.).</p>
+        <div class="toast show">
+          <div class="toast-header">
+            <strong class="me-auto">Toast Header</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+          </div>
+          <div class="toast-body">
+            <p>Some text inside the toast body</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p></p>
+    <p></p>
+    <!-- Buttons-->
+      <section>
+        <div class="row">
+          <div class="col-6">
+            <h2>UI Component - Buttons</h2>
+            <h5>Buttons (Styles)</h5>
+          </div>
+          <!-- <div class="col-6">
+            <button onclick="copyText('#buttonPrimary')" class="btn btn-secondary copyToClipboard">Copy</button>
+          </div> -->
+        </div>
+        <button type="button" class="btn">Basic</button>
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-secondary">Secondary</button>
+          <button type="button" class="btn btn-success">Success</button>
+         <button type="button" class="btn btn-info">Info</button>
+         <button type="button" class="btn btn-warning">Warning</button>
+         <button type="button" class="btn btn-danger">Danger</button> 
+         <button type="button" class="btn btn-dark">Dark</button>
+         <button type="button" class="btn btn-light">Light</button>
+         <button type="button" class="btn btn-link">Link</button>
+         <p></p>
+         <p></p>
+      </section>
+      <!-- Buttons Outline -->
+      <section>
+        <div class="row">
+          <div class="col-6">
+            <h5>Buttons (Outline)</h5>
+        </div>
+           <!-- <div class="col-6">
+            <button onclick="copyText('#buttonSecondary')" class="btn btn-secondary copyToClipboard">Copy</button>
+          </div> -->
+        </div>
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+         <button type="button" class="btn btn-outline-secondary">Secondary</button>
+         <button type="button" class="btn btn-outline-success">Success</button>
+         <button type="button" class="btn btn-outline-info">Info</button>
+         <button type="button" class="btn btn-outline-warning">Warning</button>
+         <button type="button" class="btn btn-outline-danger">Danger</button>
+         <button type="button" class="btn btn-outline-dark">Dark</button>
+         <button type="button" class="btn btn-outline-light text-dark">Light</button>
+         <p></p>
+         <p></p>
+      </section>
+      <!-- Buttons Active/Disable -->
+      <section>
+        <div class="row">
+          <div class="col-6">
+          <h5>Buttons (Active/Disable)</h5>
+          <button type="button" class="btn btn-primary">Primary Button</button>
+          <button type="button" class="btn btn-primary active">Active Primary</button>
+          <button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+          <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+          <p></p>
+          <p></p>
+        </div>
+      </section>
+
+      <!-- Buttons Spinners -->
+      <section>
+        <div class="row">
+          <div class="col-6">
+          <h5>Buttons (Spinners)</h5>
+          <button class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span>
+          </button>
+          
+          <button class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading..
+          </button>
+          
+          <button class="btn btn-primary" disabled>
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading..
+          </button>
+          
+          <button class="btn btn-primary" disabled>
+            <span class="spinner-grow spinner-grow-sm"></span>
+            Loading..
+          </button>
+          <p></p>
+          <p></p>
+      </section>
+
+      <!-- Drop Down Buttons -->
+      <section>
+        <div class="row">
+          <div class="col-6">
+          <h5>UI Component - Buttons (Drop Downs)</h5>
+          <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Link 1</a></li>
+              <li><a class="dropdown-item" href="#">Link 2</a></li>
+              <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
+            <p></p>
+            <p></p>
+          </div>
+      </section>
+
+       
+      <!-- Forms -->
+      <section>
+        <div class="mb-5">
+          <h2>UI Component - Forms</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+                  <label for="email" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="pwd" class="form-label">Password:</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                </div>
+                <div class="form-check mb-3">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              
+              <h5>Vertical/mobile</h5>
+              <form>
+                <div class="row">
+                  <div class="col-6 mb-3">
+                    <div class="form-group">
+                      <label for="input1" class="form-label">Label one</label>
+                      <input type="text" placeholder="Enter text here..." class="form-control" id="input1"
+                        aria-describedby="emailHelp">
+                    </div>
+                  </div>
+                  <div class="col-6 mb-3">
+                    <div class="form-group">
+                      <label for="input2" class="form-label">Label two</label>
+                      <input type="text" placeholder="Enter text here..." class="form-control" id="input2">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 mb-3">
+                    <div class="form-group">
+                      <label for="input3" class="form-label">Label three</label>
+                      <input type="text" placeholder="Enter text here..." class="form-control" id="input3">
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <form>
+                <h3>Heading 3</h3>
+                <p>Normal text. Nem qui omnis nam ne eiciistem fugit voluptumet eo-
+                  strum ercient iusaeruptas qui ute non porerro tem fugit rem aliquam
+                  nes ient iusaeruptas qui ute. <a href="#" class="link-default">Inline hyperlink</a></p>
+                <div class="form-group">
+                  <label for="input4" class="form-label">Label three</label>
+                  <input type="text" placeholder="Enter text here..." class="form-control" id="input4">
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <h5>Horizontal</h5>
+              <form>
+                <div class="row">
+                  <div class="col-sm mb-3">
+                    <div class="form-group">
+                      <label for="input1" class="form-label">Label one</label>
+                      <input type="text" placeholder="Enter text here..." class="form-control" id="input1"
+                        aria-describedby="emailHelp">
+                    </div>
+                  </div>
+                  <div class="col-sm mb-3">
+                    <div class="form-group">
+                      <label for="input2" class="form-label">Label two</label>
+                      <input type="text" placeholder="Enter text here..." class="form-control" id="input2">
+                    </div>
+                  </div>
+                  <div class="col-sm mb-3">
+                    <div class="form-group">
+                      <label for="input3" class="form-label">Label three</label>
+                      <input type="text" placeholder="Enter text here..." class="form-control" id="input3">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg mb-3">
+                    <div class="form-group">
+                      <label for="input4" class="form-label">Long Label</label>
+                      <input type="text" placeholder="Enter text here..." class="form-control" id="input4">
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <h5>With validation error</h5>
+              <form target="#" class="needs-validation" novalidate>
+                <div class="row">
+                  <div class="col-6 mb-3">
+                    <div class="form-group">
+                      <label for="emailInput1" class="form-label">Email address</label>
+                      <input type="email" placeholder="Enter text here..." class="form-control" id="emailInput1">
+                      <div class="invalid-feedback">
+                        Please type a valid email address.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 mb-3">
+                    <div class="form-group">
+                      <label for="emailInput2" class="form-label">Postcode</label>
+                      <input type="text" placeholder="Enter text here..." class="form-control" id="emailInput2">
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit form</button>
+              </form>
+              <form target="#" class="needs-validation" novalidate>
+                <div class="form-group row">
+                  <label for="emailInput1" class="col-sm-3 col-form-label">Email address</label>
+                  <div class="col-sm-9">
+                    <input type="email" placeholder="Enter text here..." class="form-control" id="emailInput1">
+                    <div class="invalid-feedback">
+                      Please type a valid email address.
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="input11" class="col-sm-3 col-form-label">Label two</label>
+                  <div class="col-sm-9">
+                    <input type="type" class="form-control" id="input11" placeholder="Enter text here...">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="input9" class="col-sm-3 col-form-label">Label three</label>
+                  <div class="col-sm-9">
+                    <input type="type" class="form-control" id="input9" placeholder="Enter text here...">
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit form</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Textbox -->
+      <section>
+        <div class="row">
+          <div class="col-6">
+            <h5>Textbox</h5>
+          </div>
+          <!-- <div class="col-6">
+            <button onclick="copyText('#textBox')" class="btn btn-secondary copyToClipboard">Copy</button>
+          </div> -->
+        </div>
+        <div id="textBox" class="mb-5">
+
+          <div class="row">
+            <div class="col-md-4">
+              <h6>Default</h6>
+              <input class="form-control" type="text" placeholder="Lorem ipsum" aria-label="Lorem ipsum">
+            </div>
+            <div class="col-md-4">
+              <h6>Disabled</h6>
+              <input disabled class="form-control" type="text" placeholder="Lorem ipsum" aria-label="Lorem ipsum">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Textbox with Addon -->
+      <section>
+        <div class="row">
+          <div class="col-6">
+            <h5>Textbox with addon</h5>
+          </div>
+          <!-- <div class="col-6">
+            <button onclick="copyText('#buttonAddon')" class="btn btn-secondary copyToClipboard">Copy</button>
+          </div> -->
+        </div>
+        <div id="buttonAddon" class="mb-5">
+
+          <div class="row">
+            <div class="col-md-4">
+              <h6>Default</h6>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control text-btn-addon" placeholder="Lorem Ipsum"
+                  aria-describedby="button-addon2">
+                <button class="btn btn-primary" type="button" id="button-addon2">@gmail.com</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Text with button -->
+      <section>
+        <div class="row">
+          <div class="col-6">
+            <h5>Text with button</h5>
+          </div>
+          <!-- <div class="col-6">
+            <button onclick="copyText('#textButton')" class="btn btn-secondary copyToClipboard">Copy</button>
+          </div> -->
+        </div>
+        <div id="textButton" class="mb-5">
+          <div class="row">
+            <div class="col-md-4">
+              <h6>Default</h6>
+              <div class="form-group input-with-btn">
+                <input class="form-control" type="text" placeholder="Lorem ipsum" aria-label="Lorem ipsum">
+                <button type="button" class="btn btn-primary"><i class="fa fa-long-arrow-right"
+                    aria-hidden="true"></i></button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <h6>Disabled</h6>
+              <div class="form-group input-with-btn disabled">
+                <input disabled class="form-control" type="text" placeholder="Lorem ipsum" aria-label="Lorem ipsum">
+                <button disabled type="button" class="btn btn-primary"><i class="fa fa-long-arrow-right"
+                    aria-hidden="true"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Select -->
+      <section>
+        <div class="row">
+          <div class="col-6">
+            <h5>Select/combo</h5>
+          </div>
+          <!-- <div class="col-6">
+            <button onclick="copyText('#select')" class="btn btn-secondary copyToClipboard">Copy</button>
+          </div> -->
+        </div>
+        <div id="select" class="mb-5">
+
+          <div class="row">
+            <div class="col-md-2">
+              <h6>Default</h6>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Choice 1</option>
+                <option value="1">Choice 1</option>
+                <option value="2">Choice 2</option>
+                <option value="3">Choice 3</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <h6>Disabled</h6>
+              <select disabled class="form-select" aria-label="Default select example">
+                <option selected>Choice 1</option>
+                <option value="1">Choice 1</option>
+                <option value="2">Choice 2</option>
+                <option value="3">Choice 3</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- File Upload-->
+    <section>
+      <div class="row">
+        <div class="col-6">
+          <h5>File Upload</h5>
+        </div>
+        <!-- <div class="col-6">
+          <button onclick="copyText('#select')" class="btn btn-secondary copyToClipboard">Copy</button>
+        </div> -->
+      </div>
+      <div class="mb-3">
+        <label for="formFile" class="form-label">Default file input example</label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+      <div class="mb-3">
+        <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+        <input class="form-control" type="file" id="formFileMultiple" multiple>
+      </div>
+      <div class="mb-3">
+        <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+        <input class="form-control" type="file" id="formFileDisabled" disabled>
+      </div>
+      <div class="mb-3">
+        <label for="formFileSm" class="form-label">Small file input example</label>
+        <input class="form-control form-control-sm" id="formFileSm" type="file">
+      </div>
+      <div>
+        <label for="formFileLg" class="form-label">Large file input example</label>
+        <input class="form-control form-control-lg" id="formFileLg" type="file">
+      </div>
+      <p></p>
+      <p></p>
+    </section>
+
+      <!-- Radio Buttons -->
+      <section>
+        <div class="row">
+          <div class="col-6">
+            <h2>UI Components - Radio Button</h2>
+          </div>
+          <!-- <div class="col-6">
+            <button onclick="copyText('#radioButtons')" class="btn btn-secondary copyToClipboard">Copy</button>
+          </div> -->
+        </div>
+        <div class="container mt-3">
+          <h5>Radio buttons</h5>
+          <p>The form below contains three radio buttons. The first option is checked by default, and the last option is disabled:</p>
+          <form action="/action_page.php">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+              <label class="form-check-label" for="radio1">Default + Selected</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+              <label class="form-check-label" for="radio2">Default + Unselected</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" disabled>
+              <label class="form-check-label">Disabled</label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            <p></p>
+            <p></p>
+          </form>
+        </div>
+      </section>
+      <!-- checkbox -->
+      <section>
+        <div class="row">
+          <div class="col-6">
+            <h2>UI Components - Checkbox</h2>
+          </div>
+          <!-- <div class="col-6">
+            <button onclick="copyText('#checkbox')" class="btn btn-secondary copyToClipboard">Copy</button>
+          </div> -->
+        </div>
+        <div class="container mt-3">
+          <h5>Checkboxes</h5>
+          <p>The form below contains three checkboxes. The first option is checked by default, and the last option is disabled:</p>
+          <form action="/action_page.php">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+              <label class="form-check-label" for="check1">Option 1</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+              <label class="form-check-label" for="check2">Option 2</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" disabled>
+              <label class="form-check-label">Option 3</label>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            <p></p>
+            <p></p>
+          </form>
+        </div>
+      </section>
+
+      <!-- Badges-->
+      <section>
+        <div class="row">
+          <div class="col-6">
+            <h2>UI Components - Badges</h2>
+          </div>
+          <!-- <div class="col-6">
+            <button onclick="copyText('#checkbox')" class="btn btn-secondary copyToClipboard">Copy</button>
+          </div> -->
+        </div>
+        <div class="container mt-3">
+          <h5>Pill Badges</h5>
+          <span class="badge rounded-pill bg-primary">Primary</span>
+          <span class="badge rounded-pill bg-secondary">Secondary</span>
+          <span class="badge rounded-pill bg-success">Success</span>
+          <span class="badge rounded-pill bg-danger">Danger</span>
+          <span class="badge rounded-pill bg-warning">Warning</span>
+          <span class="badge rounded-pill bg-info">Info</span>
+          <span class="badge rounded-pill bg-light">Light</span>
+          <span class="badge rounded-pill bg-dark">Dark</span>
+          <button type="button" class="btn btn-primary">
+            Messages <span class="badge bg-danger">4</span>
+          </button>
+        </div>
+        <p></p>
+        <p></p>
+
+      <!-- Pagination-->
+      <section>
+        <div class="row">
+          <div class="col-6">
+            <h2>UI Components - Pagination</h2>
+          </div>
+        <ul class="pagination pagination-lg">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+        
+        <ul class="pagination pagination-sm">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+</button>
+      </section>
+
+      <!-- Spinners -->
+      <section>
+        <div class="row mb-2">
+          <div class="col-6">
+            <h2>UI Component - Spinners</h2>
+          </div>
+          <p></p>
+          <div class="spinner-border"></div>
+      </section>
+      
+      <!-- ProgressBar -->
+      <section>
+        <div class="row mb-2">
+          <div class="col-6">
+            <h2>UI Component - Progress Bar</h2>
+          </div>
+          <p></p>
+          <div class="container mt-3">
+            <h5>Progress Bar With Label</h5>
+            <div class="progress">
+              <div class="progress-bar" style="width:70%">70%</div>
+            </div>
+          </div>
+        <div class="container mt-3">
+          <h5>Colored Progress Bars</h5>
+          <!-- Blue -->
+          <div class="progress">
+            <div class="progress-bar" style="width:10%"></div>
+          </div><br>
+        
+          <!-- Green -->
+          <div class="progress">
+            <div class="progress-bar bg-success" style="width:20%"></div>
+          </div><br>
+        
+          <!-- Turquoise -->
+          <div class="progress">
+            <div class="progress-bar bg-info" style="width:30%"></div>
+          </div><br>
+        
+          <!-- Orange -->
+          <div class="progress">
+             <div class="progress-bar bg-warning" style="width:40%"></div>
+          </div><br>
+        
+          <!-- Red -->
+          <div class="progress">
+            <div class="progress-bar bg-danger" style="width:50%"></div>
+          </div><br>
+        
+          <!-- White -->
+          <div class="progress border">
+            <div class="progress-bar bg-white" style="width:60%"></div>
+          </div><br>
+        
+          <!-- Grey -->
+          <div class="progress">
+            <div class="progress-bar bg-secondary" style="width:70%"></div>
+          </div><br>
+        
+          <!-- Light Grey -->
+          <div class="progress border">
+            <div class="progress-bar bg-light" style="width:80%"></div>
+          </div><br>
+        
+          <!-- Dark Grey -->
+          <div class="progress">
+            <div class="progress-bar bg-dark" style="width:90%"></div>
+          </div>
+        </div>
+        <p></p>
+        <h5>Animated Progress Bar</h5>
+        <div class="container mt-3">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%"></div>
+          </div>
+        </div>
+      </section>     
+  <!--footer-->
+  <footer class="bg-grey-light color-white py-3">
+    <div class="container">
+      <div class="foot-text d-flex justify-content-start align-items-center">
+        <span class="px-3"><strong>Mt. Superior Health</strong></span>
+        <span class="px-3">Web and mobile elements</span>
+        <span class="px-3">Version 1</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
